@@ -17,6 +17,7 @@ public class TestRestaurante {
 		System.out.println("Dirección: "+rest1.direccion);
 		System.out.println("Calificación: "+ rest1.calificacion+"\n");
 		
+		
 		System.out.println("***** Restaurante2 antes de asignar valores *****");
 		System.out.println("Nombre: "+rest2.nombre);
 		System.out.println("Dirección: "+rest2.direccion);
