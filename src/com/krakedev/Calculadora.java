@@ -19,4 +19,9 @@ public class Calculadora {
 		double totalPromedio = (valor1 + valor2 + valor3) / 3;
 		return totalPromedio;
 	}
+
+	public void mostrarResultado() {
+
+		System.out.println("Ahorita no joven, Salí al almuerzo. Regreso en 15 minutos.");
+	}
 }
