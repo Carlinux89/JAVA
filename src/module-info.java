@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Taller1 {
+module TalleresJava {
 }
