@@ -8,27 +8,26 @@ public class TestPlato {
 		Plato platoB;
 		Plato platoC;
 
-		platoA = new Plato();
-		platoB = new Plato();
-		platoC = new Plato();
+		// aqui se aplica el metodo constructor creado con parametros
+		platoA = new Plato("Encebollado", "Costa", 6.7f, true);
+		platoB = new Plato("Caldo de patas", "Quito", 3.5f, true);
+		platoC = new Plato("Bandera", "Mariscos", 8.90f, false);
 
-		System.out.println("***** PlatoA con valores sin asignar *****");
-		System.out.println("");
-		System.out.println("Nombre: " + platoA.getNombre());
-		System.out.println("Tipo: " + platoA.getTipo());
-		System.out.println("Precio: " + platoA.getPrecio());
-		System.out.println("Disponible: " + platoA.isDisponible());
-		System.out.println("");
-
-		System.out.println("***** PlatoB con valores sin asignar *****");
-		System.out.println("");
-		System.out.println("Nombre: " + platoB.getNombre());
-		System.out.println("Tipo: " + platoB.getTipo());
-		System.out.println("Precio: " + platoB.getPrecio());
-		System.out.println("Disponible: " + platoB.isDisponible());
+		System.out.println("\n ***** PlatoA con valores asigandos por el método contructor *****");
+		System.out.println("\t Nombre: " + platoA.getNombre());
+		System.out.println("\t Tipo: " + platoA.getTipo());
+		System.out.println("\t Precio: " + platoA.getPrecio());
+		System.out.println("\t Disponible: " + platoA.isDisponible());
 		System.out.println("");
 
-		System.out.println("***** PlatoC con valores sin asignar *****");
+		System.out.println("***** PlatoB con valores asignados por el método contructor *****");
+		System.out.println("\t Nombre: " + platoB.getNombre());
+		System.out.println("\t Tipo: " + platoB.getTipo());
+		System.out.println("\t Precio: " + platoB.getPrecio());
+		System.out.println("\t Disponible: " + platoB.isDisponible());
+		System.out.println("");
+
+		System.out.println("***** PlatoC con valores sin asignados por el método contructor *****");
 		System.out.println("");
 		System.out.println("Nombre: " + platoC.getNombre());
 		System.out.println("Tipo: " + platoC.getTipo());

@@ -8,19 +8,19 @@ public class TestRestaurante {
 		Restaurante rest1;
 		Restaurante rest2;
 
-		rest1 = new Restaurante();
-		rest2 = new Restaurante();
+		// aqui se aplica el metodo constructor creado con parametros
+		rest1 = new Restaurante("KFC", "Condado Shopping", 3.5f);
+		rest2 = new Restaurante("El Bongo", "Otavalo", 3f);
 
-		System.out.println("====== Restaurante1 antes de asignar valores ====");
-		System.out.println("");
-		System.out.println("Nombre: " + rest1.getNombre());
-		System.out.println("Dirección: " + rest1.getDireccion());
-		System.out.println("Calificación: " + rest1.getCalificacion() + "\n");
+		System.out.println("\n ====== Restaurante1 con valores asigandos por el método contructor ====");
+		System.out.println("\t Nombre: " + rest1.getNombre());
+		System.out.println("\t Dirección: " + rest1.getDireccion());
+		System.out.println("\t Calificación: " + rest1.getCalificacion() + "\n");
 
-		System.out.println("***** Restaurante2 antes de asignar valores *****");
-		System.out.println("Nombre: " + rest2.getNombre());
-		System.out.println("Dirección: " + rest2.getDireccion());
-		System.out.println("Calificación: " + rest2.getCalificacion() + "\n");
+		System.out.println("***** Restaurante2 con valores asigandos por el método contructor *****");
+		System.out.println("\t Nombre: " + rest2.getNombre());
+		System.out.println("\t Dirección: " + rest2.getDireccion());
+		System.out.println("\t Calificación: " + rest2.getCalificacion() + "\n");
 
 		rest1.setNombre("VacoYVaca");
 		rest1.setDireccion("C.C. El Bosque");

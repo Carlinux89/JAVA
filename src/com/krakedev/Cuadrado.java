@@ -16,6 +16,10 @@ public class Cuadrado {
 		return perimetro;
 	}
 
+	public Cuadrado(double lado) {
+		this.lado = lado;
+	}
+
 	public double getLado() {
 		return lado;
 	}
