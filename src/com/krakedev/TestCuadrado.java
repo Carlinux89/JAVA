@@ -8,9 +8,9 @@ public class TestCuadrado {
 		Cuadrado c2 = new Cuadrado();
 		Cuadrado c3 = new Cuadrado();
 
-		c1.lado = 4;
-		c2.lado = 3;
-		c3.lado = 9;
+		c1.setLado(4);
+		c2.setLado(3);
+		c3.setLado(9);
 
 		double area1 = c1.calcularArea();
 		double area2 = c2.calcularArea();
@@ -22,15 +22,15 @@ public class TestCuadrado {
 
 		System.out.println("");
 		System.out.println("\t    ***** AREA DEL CUADRADO *****\n");
-		System.out.println("\t Area del cuadrado 1" + " de " + (c1.lado) + " lados: " + area1);
-		System.out.println("\t Area del cuadrado 2" + " de " + (c2.lado) + " lados: " + area2);
-		System.out.println("\t Area del cuadrado 3" + " de " + (c3.lado) + " lados: " + area3);
+		System.out.println("\t Area del cuadrado 1" + " de " + (c1.getLado()) + " lados: " + area1);
+		System.out.println("\t Area del cuadrado 2" + " de " + (c2.getLado()) + " lados: " + area2);
+		System.out.println("\t Area del cuadrado 3" + " de " + (c3.getLado()) + " lados: " + area3);
 
 		System.out.println("");
 		System.out.println("\t    ***** PERIMETRO DEL CUADRADO *****\n");
-		System.out.println("\t Area del perimetro 1" + " de " + (c1.lado) + " lados: " + perimetro1);
-		System.out.println("\t Area del perimetro 2" + " de " + (c2.lado) + " lados: " + perimetro2);
-		System.out.println("\t Area del perimetro 3" + " de " + (c3.lado) + " lados: " + perimetro3);
+		System.out.println("\t Area del perimetro 1" + " de " + (c1.getLado()) + " lados: " + perimetro1);
+		System.out.println("\t Area del perimetro 2" + " de " + (c2.getLado()) + " lados: " + perimetro2);
+		System.out.println("\t Area del perimetro 3" + " de " + (c3.getLado()) + " lados: " + perimetro3);
 
 	}
 

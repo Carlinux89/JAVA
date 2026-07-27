@@ -6,13 +6,13 @@ public class TestRectangulo {
 		// TODO Auto-generated method stub
 		Rectangulo pr = new Rectangulo();
 
-		pr.base = 4;
-		pr.altura = 2;
+		pr.setBase(4);
+		pr.setAltura(2);
 		double perimetroR = pr.calcularPerimetro();
 		System.out.println("");
 		System.out.println("\t+++++ PERIMETRO TRIANGULO +++++");
 		System.out.println("");
-		System.out.println("\tEl perimetro del triangulo es: " + perimetroR);
+		System.out.println("\t El perimetro del triangulo es: " + perimetroR);
 
 	}
 
